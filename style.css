@@ -1,0 +1,256 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    height: 8vh;
+    /* border: 2px solid red; */
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.wizard {
+    height: 47vh;
+    display: flex;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* border: 2px solid blue; */
+    flex-direction: column;
+    padding: 0 0 5% 5%;
+}
+
+.footer {
+    height: 45vh;
+    display: flex;
+    box-sizing: border-box;
+    /* border: 2px solid hotpink; */
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    /* border: 2px solid aqua; */
+    height: 5vh;
+    flex-basis: 50%;
+}
+
+#search {
+    /* border: 2px solid rgb(182, 97, 182); */
+    align-content: right;
+    flex-basis: 26%;
+}
+
+.navMenu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+}
+
+aside {
+    padding: 5px;
+    flex-basis: 70%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+}
+
+hr {
+    height: 4px;
+    background-color: lightgray;
+    width: 80%;
+    border-radius: 10px;
+}
+
+a.hover {
+    color: mediumturquoise;
+}
+
+a.link {
+    color: blue;
+}
+
+#links {
+    /* border: 2px solid orange; */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding: 0%;
+    width: 90%;
+}
+
+@media (max-width: 600px) {
+    /* body {
+        background-color: blue;
+    } */
+    #links {
+        flex-direction: column;
+    }
+    .footer {
+        height: 500px;
+    }
+    h2 {
+        font-size: medium;
+    }
+    #links p {
+        display: inline;
+        margin: 0% 5%;
+        /* margin-right: 20%; */
+    }
+    .navMenu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+#social {
+    /* border: 2px solid purple; */
+    box-sizing: border-box;
+}
+
+#comanyLogo {
+    border: 2px solid green;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px;
+}
+
+.links1 {
+    /* border: 2px solid chartreuse; */
+    flex-basis: 30%;
+}
+
+.links2 {
+    /* border: 2px solid chartreuse; */
+    flex-basis: 30%;
+}
+
+.links3 {
+    /* border: 2px solid chartreuse; */
+    flex-basis: 30%;
+}
+
+.active {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+#w1,
+#w1a,
+#w1b,
+#w2,
+#w2a,
+#w2b,
+#w2c {
+    /* border: 2px solid darkolivegreen; */
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    width: 60%;
+    margin-left: 10%;
+    padding: 5px;
+    visibility: visible;
+    background-image: url('/images/arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#w1a,
+#w1b,
+#w2a,
+#w2b,
+#w2c {
+    margin-left: 20%;
+    display: block;
+    visibility: hidden;
+}
+
+#back {
+    border: none;
+    /* color: crimson; */
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 80%;
+    /* margin-top: auto; */
+    display: none;
+}
+
+#w11,
+#w12,
+#w21,
+#w22,
+#w23 {
+    display: none;
+}
+
+#w11a,
+#w11b,
+#w11c,
+#w11d,
+#w12a,
+#w12b,
+#w12c,
+#w12d,
+#w21a,
+#w21b,
+#w21c,
+#w21d,
+#w22a,
+#w22b,
+#w22c,
+#w23a,
+#w23b,
+#w23c {
+    /* border: 2px solid darkolivegreen; */
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+    padding: 5px;
+    background-image: url('/images/arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
