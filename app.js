@@ -99,7 +99,6 @@ let questionUserMigrateHigher = document.getElementById('w21')
 let questionUserBuildMDE = document.getElementById('w22')
 let questionUserAnalyzeOffload = document.getElementById('w23')
 let wizard1 = document.getElementById('wizard1')
-    // let back11 = document.querySelector('.back11')
 
 questionNewBuild.addEventListener('click', () => {
     wizard1.style.display = 'none'
