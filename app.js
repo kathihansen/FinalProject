@@ -48,12 +48,12 @@ questionNew.addEventListener('click', () => {
     }
     // alert('before:backgroundImage = ' + questionNew.style.backgroundImage)
 
-    if (questionNew.style.backgroundImage == 'url("/images/arrow-right.png")') {
-        questionNew.style.backgroundImage = 'url("/images/arrow-down.png")'
+    if (questionNew.style.backgroundImage == 'url("./images/arrow-right.png")') {
+        questionNew.style.backgroundImage = 'url("./images/arrow-down.png")'
     } else if (questionNew.style.backgroundImage == '') {
-        questionNew.style.backgroundImage = 'url("/images/arrow-down.png")'
-    } else if (questionNew.style.backgroundImage == 'url("/images/arrow-down.png")') {
-        questionNew.style.backgroundImage = 'url("/images/arrow-right.png")'
+        questionNew.style.backgroundImage = 'url("./images/arrow-down.png")'
+    } else if (questionNew.style.backgroundImage == 'url("./images/arrow-down.png")') {
+        questionNew.style.backgroundImage = 'url("./images/arrow-right.png")'
     }
     // alert('after:backgroundImage = ' + questionNew.style.backgroundImage)
 
@@ -83,12 +83,12 @@ questionUser.addEventListener('click', () => {
     } else if (questionUserAnalyze.style.visibility == 'hidden') {
         questionUserAnalyze.style.visibility = 'visible'
     }
-    if (questionUser.style.backgroundImage == 'url("/images/arrow-right.png")') {
-        questionUser.style.backgroundImage = 'url("/images/arrow-down.png")'
+    if (questionUser.style.backgroundImage == 'url("./images/arrow-right.png")') {
+        questionUser.style.backgroundImage = 'url("./images/arrow-down.png")'
     } else if (questionUser.style.backgroundImage == '') {
-        questionUser.style.backgroundImage = 'url("/images/arrow-down.png")'
+        questionUser.style.backgroundImage = 'url("./images/arrow-down.png")'
     } else if (questionUser.style.backgroundImage == 'url("/images/arrow-down.png")') {
-        questionUser.style.backgroundImage = 'url("/images/arrow-right.png")'
+        questionUser.style.backgroundImage = 'url("./images/arrow-right.png")'
     }
 })
 
@@ -99,7 +99,7 @@ let questionUserMigrateHigher = document.getElementById('w21')
 let questionUserBuildMDE = document.getElementById('w22')
 let questionUserAnalyzeOffload = document.getElementById('w23')
 let wizard1 = document.getElementById('wizard1')
-let back11 = document.querySelector('.back11')
+    // let back11 = document.querySelector('.back11')
 
 questionNewBuild.addEventListener('click', () => {
     wizard1.style.display = 'none'

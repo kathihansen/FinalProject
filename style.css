@@ -192,7 +192,7 @@ a.link {
     margin-left: 10%;
     padding: 5px;
     visibility: visible;
-    background-image: url('/images/arrow-right.png');
+    background-image: url('./images/arrow-right.png');
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -250,7 +250,7 @@ a.link {
     width: 60%;
     margin-left: 20%;
     padding: 5px;
-    background-image: url('/images/arrow-right.png');
+    background-image: url('./images/arrow-right.png');
     background-repeat: no-repeat;
     background-position: right;
 }
